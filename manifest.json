@@ -1,0 +1,19 @@
+{
+
+    "name":"Set Reminders to stretch during WFH",
+    "version":"2",
+    "manifest_version":2,
+    "description":"My first ChromeX - Bring some balance back to WFH",
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_title":"Work-Life Balance",
+        "default_icon":"WFH.png"
+    },
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "permissions": ["alarms","notifications"],
+    
+    "icons":{
+        "128":"WFH.png"}
+}

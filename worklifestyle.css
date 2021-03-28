@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    background: #41baba;
+    color: white;
+
+}
+
+#cancel{
+    background: lightgrey;
+    color: black;
+
+}
+
+button:hover{
+
+    background: darkcyan;
+}
+
+#cancel:hover{
+    background: grey;
+}
