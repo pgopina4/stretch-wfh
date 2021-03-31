@@ -1,10 +1,12 @@
 function setReminder(){
     chrome.browserAction.setBadgeText({text:'ON'});
+    console.log(document.getElementById('minutes').value);
 
     chrome.alarms.create({
 
-        delayInMinutes: 45
-    })
+        delayInMinutes: parseInt(document.getElementById('minutes').value,10)
+
+    });
 
     window.close();
 }
